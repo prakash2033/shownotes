@@ -33,7 +33,7 @@ pid=$(comm -12 <(xdotool search --name "$my_term" | sort) <(xdotool search --cla
 wid=$(printf 0x%x "$pid")
 
 # maximize terminal emulator
-wrs "$width" "$height" "$wid"
+#wrs "$width" "$height" "$wid"
 
 # toggle show/hide terminal emulator
 mapw -t "$wid"
